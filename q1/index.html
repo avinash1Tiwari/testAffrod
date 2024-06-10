@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div>
+        <div class="heading"> Bill Calculator</div>
+        <div class="amount">
+           <label for="one"> Enter Amount</label>
+            <input type="text" class="amontinput" id="one">
+        </div>
+        <div>
+            <label for="tip"> Enter The Tip</label>
+            <input type="text" class="tipamont" id="tip" onchange="click">
+        </div>
+        <div>
+            <button  class="btn">Click me</button>
+        </div>
+        <div>
+
+        </div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <script src="./index.js">
+
+const a = document.getElementsByClassName("btn")
+a.addEventListener("click",function(){
+    console.log("hello")
+})
+
+    </script>
+</body>
+</html>
